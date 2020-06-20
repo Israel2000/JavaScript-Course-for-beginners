@@ -9,11 +9,11 @@ typeof ({}) === 'object';
 typeof ('hi there') === 'string';
 
 // part 2: Numbers (whole numbers): 
-// integers: -1,0,1,2
-// Floats(decimal numbers): 2.12. 3.14
+/*integers: */-1, 0, 1, 2
+/*Floats(decimal numbers): */ 2.12, 3.14
 
 // part 3: Aritmetic Operation
-// 1+2 => 3
+1 + 2 //=> 3
 
 // part 4: Special Number Operators
 //3 ^ 2 becomes
