@@ -67,3 +67,47 @@ true === true; //true
 "hello" !== 'helloo'; // true
 1 !== '1'; //true
 1 != "false"; //false
+
+// Boolean and Logic Operator: &&(AND) -both side values to true/ ||(OR) operator - both side true in order value to be true
+true && true // true
+false && false //false
+true || false //true
+false || flase //false
+
+// example || (OR)
+let hour = 9;
+if (hour < 10 || hour > 18) {
+    console.log('The office is closed.');
+}
+
+//example && (AND)
+let hour = 12;
+let minute = 30;
+if (hour == 12 && minute == 30) {
+    console.log('The time is 12:30');
+}
+
+// Swtich Statement
+let grade = 'B';
+switch (grade) {
+    case 'A':
+        console.log('Excellent job');
+    case 'B':
+        console.log('Good job');
+    case 'C':
+        console.log('okay job');
+    case 'D':
+        console.log('Not so good job');
+    case 'F':
+        console.log('Bad job');
+    default:
+        console.log('Unexpected grade value entered');
+}
+
+// break;
+
+// Iteration
+let countNums = [1, 2, 3, 4, 5];
+for (let i = 0; i < countNums.length; i++) {
+    console.log(i);
+}
