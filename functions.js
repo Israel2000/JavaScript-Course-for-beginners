@@ -78,3 +78,5 @@ var numDbl = double(num); //=> 14
 
 // This can also be written:
 var num = double(sum(3, 4)); //=> 14
+
+var nameCalling = "John";
